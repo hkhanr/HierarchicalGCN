@@ -1,0 +1,18 @@
+# Core (HierarchicalGCN training / eval)
+torch>=1.13.0
+torchvision>=0.14.0
+numpy>=1.21
+einops>=0.6
+PyYAML>=5.4
+tqdm>=4.62
+tensorboardX>=2.5
+scikit-learn>=1.0
+matplotlib>=3.5
+h5py>=3.1
+
+# Used by analysis / ensemble helpers
+pandas>=1.3
+seaborn>=0.11
+
+# Optional: only needed for model.BlockGCN.Model (topology branch)
+# torch-topological

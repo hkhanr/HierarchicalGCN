@@ -1,0 +1,2 @@
+python main.py --weights work_dir/ntu60/cview/Hierarchical_GCN_large_decay_110_120_200_epochs_bone_new_8heads_deterministic/runs-171-100548.pt --phase test --save-score True \
+--config config/nturgbd-cross-view/bone.yaml --model model.HierarchicalGCN --work-dir work_dir/ntu60/cview/bone --device 0
